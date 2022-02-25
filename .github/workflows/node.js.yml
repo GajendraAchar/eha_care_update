@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+  
     runs-on: ubuntu-latest
 
     strategy:
@@ -21,10 +21,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        working-directory: ./frontend
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
-        cache-dependency-path: ./frontend/package-lock.json
+        #cache-dependency-path: ./frontend/package-lock.json
+        working-directory: ./frontend
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
