@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:   
+
+  eha_care:
+    image: eha_care
+    build: ./frontend/
+    tty: true
+    container_name: eha_care
+    ports:
+      - '3000:3000'
+      

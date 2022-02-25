@@ -1,0 +1,48 @@
+//@import 'bootstrap/dist/css/bootstrap.min.css';
+
+$white:    #fff !default;
+$gray-100: #FCFDFD;
+$gray-200: #F4F8F6;
+$gray-300: #E7F0F2;
+$gray-400: #DBE9EF;
+$gray-500: #C3D2D8;
+$gray-600: #ACBCBF;
+$gray-700: #8D9DA0;
+$gray-800: #6E7F80;
+$gray-900: #4E6160;
+$black:    #000 !default;
+
+$body-color: #405352;
+
+// scss-docs-start color-variables
+$blue:    #41B5FD;
+$indigo:  #5B74C6;
+$purple:  #7F8BAA;
+$pink:    #d63384 !default;
+$red:     #F47D82;
+$orange:  #fd7e14 !default;
+$yellow:  #F2DC35;
+$green:   #65E5AA;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $blue !default;
+$secondary:     $indigo;
+$success:       $green !default;
+$info:          $purple;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+
+// scss-docs-start border-radius-variables
+$border-radius:               6px;
+$border-radius-sm:            4px;
+$border-radius-lg:            12px;
+$border-radius-pill:          50rem !default;
+
+@import "~bootstrap/scss/bootstrap";
+@import "_globals.scss";
+
