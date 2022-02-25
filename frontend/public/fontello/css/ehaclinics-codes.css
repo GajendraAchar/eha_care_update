@@ -1,0 +1,15 @@
+
+.eha-doctor:before { content: '\e801'; } /* '' */
+.eha-virus:before { content: '\e802'; } /* '' */
+.eha-cart:before { content: '\e803'; } /* '' */
+.eha-user:before { content: '\e805'; } /* '' */
+.eha-prescription:before { content: '\e808'; } /* '' */
+.eha-medication:before { content: '\e809'; } /* '' */
+.eha-lab:before { content: '\e80b'; } /* '' */
+.eha-dental:before { content: '\e80c'; } /* '' */
+.eha-home-care:before { content: '\e80d'; } /* '' */
+.eha-ophtalmology:before { content: '\e80f'; } /* '' */
+.eha-telemedicine:before { content: '\e810'; } /* '' */
+.eha-pharmacy:before { content: '\e811'; } /* '' */
+.eha-immunization:before { content: '\e812'; } /* '' */
+.eha-menu:before { content: '\f0c9'; } /* '' */

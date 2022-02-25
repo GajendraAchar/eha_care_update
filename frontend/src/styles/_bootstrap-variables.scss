@@ -1,0 +1,91 @@
+///////
+///////
+/////// Bootstrap Variables
+
+$white:    #fff !default;
+$gray-100: #FCFDFD;
+$gray-200: #F4F8F6;
+$gray-300: #E7F0F2;
+$gray-400: #DBE9EF;
+$gray-500: #C3D2D8;
+$gray-600: #ACBCBF;
+$gray-700: #8D9DA0;
+$gray-800: #6E7F80;
+$gray-900: #405352;
+$black:    #000 !default;
+
+$body-color: #314342;
+
+// scss-docs-start color-variables
+$blue:    #41B5FD;
+$indigo:  #5B74C6;
+$purple:  #7F8BAA;
+$pink:    #d63384 !default;
+$red:     #F47D82;
+$orange:  #fd7e14 !default;
+$yellow:  #F2DC35;
+$green:   #65E5AA;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $blue !default;
+$secondary:     $indigo;
+$success:       $green !default;
+$info:          $purple;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+
+$font-weight-bold:            600;
+
+// scss-docs-start border-radius-variables
+$border-radius:               6px;
+$border-radius-sm:            4px;
+$border-radius-lg:            12px;
+$border-radius-pill:          50rem !default;
+
+$spacer: 1rem;
+//$navbar-padding-x:            $spacer;
+//$navbar-padding-y:            $spacer;
+$navbar-dark-color:           $gray-600;
+$navbar-dark-hover-color:     $primary;
+$navbar-brand-height:         inherit;
+$navbar-brand-padding-y: 	0;
+$navbar-brand-font-size:   1rem;
+$nav-link-font-size:  14px;
+
+$box-shadow:                0 0 6px rgba($gray-900, .1) 1px 1px 1px rgba($purple, .2);
+$box-shadow-sm:             1px 1px 1px rgba($gray-900, .2);
+$box-shadow-lg:             0 0 6px rgba($gray-900, .2) 1px 1px 2px rgba($purple, .2);
+$box-shadow-inset:  		1px 1px 8px rgba($gray-900, .1) inset;
+
+$caret-spacing: .5em;
+
+$dropdown-min-width:                10rem !default;
+$dropdown-padding-x:                0 !default;
+$dropdown-padding-y:                .5rem !default;
+$dropdown-spacer:                   .125rem !default;
+$dropdown-color:                    $body-color !default;
+$dropdown-bg:                       $white !default;
+$dropdown-border-color:             rgba($gray-500, .15);
+$dropdown-border-radius:            $border-radius !default;
+$dropdown-divider-bg:               $dropdown-border-color !default;
+$dropdown-divider-margin-y:         $spacer * .5 !default;
+
+$dropdown-link-color:               $gray-900 !default;
+$dropdown-link-hover-color:         shade-color($dropdown-link-color, 10%) !default;
+$dropdown-link-hover-bg:            $gray-200 !default;
+
+
+$dropdown-link-disabled-color:      $gray-500 !default;
+
+$dropdown-item-padding-y:           $spacer * .25 !default;
+$dropdown-item-padding-x:           $spacer !default;
+
+
+
+
+

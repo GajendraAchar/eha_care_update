@@ -1,0 +1,13 @@
+.dropdown-toggle::after {
+  border: 0;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-radius: 1px;
+  width: .5em;
+  height: .5em;
+  transform: rotate(45deg);
+}
+
+.dropdown-menu {
+	box-shadow: $drop-shadow;
+}

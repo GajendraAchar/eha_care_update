@@ -1,0 +1,41 @@
+.eha-topnav {
+	height: $spacer * 4;
+  box-shadow: $drop-shadow;
+
+  .navbar-brand {
+    line-height: 0;
+    height: $spacer * 3;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    font-weight: 300;
+  }
+
+  .user-name .nav-link {
+    text-transform: none;
+    letter-spacing: 0;
+    color: $white;
+    font-size: 1rem;
+
+    &:before {
+      font-family: "ehaclinics";
+      display: inline-block;
+      width: 1em;
+      margin-right: .5em;
+      text-align: center;
+      content: "\e805";
+    }
+  }
+
+	.navbar-collapse.collapse,
+  .navbar-collapse.collapsing {
+		background: $gray-900; 
+    padding: $spacer * .5 $spacer 0;
+	}
+}
+
+.eha-topnav ~ .main {
+  margin-top: $spacer * 4;
+}

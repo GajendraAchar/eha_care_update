@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Overpass:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,400;1,600&display=swap');
+
+//Include ICON font 
+//(to update the icons, upload config.json to fontello.com, edit icons and export again)
+@import "../../public/fontello/css/ehaclinics.css";
+
+//Tweak Boostrap variables before importing bootstrap
+@import "_bootstrap-variables.scss";
+
+@import "~bootstrap/scss/bootstrap";
+@import "_globals.scss";
+
+@import "_dropdown.scss";
+@import "_topnav.scss";
+
+
