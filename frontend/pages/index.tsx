@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <main>
 
-       <div><h1 style={{ fontSize: 40}}>Welcome to EHA CARE</h1>
+       <div><h1 style={{ fontSize: 40}}>Welcome to EHA CARE.</h1>
        </div>
        <h2>Hello World!!</h2>
        <p>This is the very first page. Testing Pipeline. Changes made to hope page.</p>
