@@ -17,5 +17,8 @@ jobs:
           working-directory: ./frontend
       - uses: cypress-io/github-action@v2
         with:
+          build: npm run build
+          start: npm start
           browser: chrome
           working-directory: ./frontend
+          
