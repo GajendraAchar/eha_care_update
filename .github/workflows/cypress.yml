@@ -18,7 +18,7 @@ jobs:
       - uses: cypress-io/github-action@v2
         with:
           build: npm run build
-          start: npm start
+          #start: npm start
           browser: chrome
           working-directory: ./frontend
       #- run: npm run test:e2e
