@@ -21,7 +21,7 @@ jobs:
           start: npm start
           browser: chrome
           working-directory: ./frontend
-      - run: npm run test:e2e
-        working-directory: ./frontend
-      - run: npm run test:e2e-ci
-        working-directory: ./frontend
+      #- run: npm run test:e2e
+      #  working-directory: ./frontend
+      #- run: npm run test:e2e-ci
+      #  working-directory: ./frontend
