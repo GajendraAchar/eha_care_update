@@ -5,8 +5,17 @@ jobs:
     runs-on: ubuntu-20.04
     # let's make sure our tests pass on Chrome browser
     name: E2E on Chrome
+    
+    strategy:
+      matrix:
+        node-version: [16.x]
+    
     steps:
       - uses: actions/checkout@v2
+        with:
+          #cache-dependency-path: ./frontend/package-lock.json
+          working-directory: ./frontend
       - uses: cypress-io/github-action@v2
         with:
           browser: chrome
+          working-directory: ./frontend
