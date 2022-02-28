@@ -38,9 +38,9 @@ jobs:
       working-directory: ./frontend
     - run: npm test
       working-directory: ./frontend
-    - run: npm cy:open
+    - run: npm run cy:open
       working-directory: ./frontend  
-    - run: npm test:e2e
+    - run: npm run test:e2e
       working-directory: ./frontend
-    - run: npm test:e2e-ci
+    - run: npm run test:e2e-ci
       working-directory: ./frontend
